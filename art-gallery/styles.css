@@ -83,4 +83,115 @@ section h2 {
   padding: 20px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
-
+.artwork-image{
+  height: 250px;
+  background: #d4a373;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.artwork-image span{
+  font-size:1.3rem;
+  letter-spacing:2px;
+}
+.artwork-card h3{
+  margin-bottom:8px;
+}
+.artwork-card p {
+  color: #777;
+}
+.artists{
+background: #e8e2d9;
+}
+.artist-grid{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+.artist-card{
+  background: #fff;
+  padding:30px;
+  border-radius:5px;
+}
+.artist-card h3{
+  margin-bottom:12px;
+}
+.exhibition {
+  background: #4b4540;
+  color: #fff;
+  text-align: center;
+}
+.exhibition-content {
+  max-width: 750px;
+  margin: auto;
+}
+.exhibition h2 {
+  color: #fff;
+}
+.exhibition p {
+  margin-bottom: 20px;
+}
+.visit-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+.visit-card{
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+.visit-card h3 {
+  margin-bottom: 15px;
+}
+.visit-card p {
+  margin: 5px 0;
+}
+.reviews {
+  background: #e8e2d9;
+}
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.review {
+  background: #fff;
+  padding: 30px;
+}
+.review h3 {
+  margin-top: 20px;
+  color: #a56b3f;
+}
+.contact {
+  text-align: center;
+}
+.contact p {
+  margin: 8px 0;
+}
+footer {
+  background: #1f1f1f;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+footer p {
+  color: #fff;
+}
+nav a {
+  transition: opacity 0.3s;
+}
+nav a:hover{
+  opacity: 0.7;
+}
+.btn{
+  transition:
+  transform 0.3s,
+  background 0.3s;
+}
+.btn:hover {
+  background:#b9855d;
+  transform: translateY(-3px);
+} 
